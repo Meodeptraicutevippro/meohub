@@ -1551,7 +1551,7 @@ end
 
 Tabs.home:AddButton({
         Title = "Owner",
-        Description = "DuydepZaiiCuto!",
+        Description = "Meodeptraicutevippro",
         Callback = function()
             setclipboard("")
         end
@@ -1559,7 +1559,7 @@ Tabs.home:AddButton({
     
 Tabs.home:AddButton({
         Title = "Version",
-        Description = "Beta Hub 6⁵",
+        Description = "version 1 Meo Hub",
         Callback = function()
             setclipboard("")
         end
@@ -1567,17 +1567,25 @@ Tabs.home:AddButton({
     
 Tabs.home:AddButton({
         Title = "Youtube",
-        Description = "Đăng Ký Kênh YouTube",
+        Description = "Đăng Ký Kênh YouTube kênh mình trả có j đâu ",
         Callback = function()
-            setclipboard("https://www.youtube.com/@HIRU_HUB")
+            setclipboard("https://www.youtube.com/@meodeptraicutevippro")
         end
     })
     
 Tabs.home:AddButton({
-        Title = "Zalo Chat",
-        Description = "Hãy Tham Gia Zalo Thông Báo Update!",
+        Title = "Discord Chat",
+        Description = "Join disocrd để giao lưu với tui :D",
         Callback = function()
-            setclipboard("https://zalo.me/g/oiragq418")
+            setclipboard("https://discord.gg/6rjGEUKe")
+        end
+    })
+
+    abs.home:AddButton({
+        Title = "Bio",
+        Description = "link bio của mình",
+        Callback = function()
+            setclipboard("https://ayo.so/meohuhu")
         end
     })
     
